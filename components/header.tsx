@@ -68,10 +68,10 @@ export function Header() {
               Virtual Tours
             </Link>
             <Link
-              href="/about"
+              href="/blog"
               className="text-gray-700 hover:text-blue-600 transition-colors dark:text-gray-300 dark:hover:text-blue-400"
             >
-              About Us
+             blogs
             </Link>
           </nav>
 
@@ -135,10 +135,10 @@ export function Header() {
               Virtual Tours
             </Link>
             <Link
-              href="/about"
+              href="/blog"
               className="block text-gray-700 hover:text-blue-600 py-2 dark:text-gray-300 dark:hover:text-blue-400"
             >
-              About Us
+              Blogs
             </Link>
             <div className="pt-4 flex flex-col space-y-4">
               <Button

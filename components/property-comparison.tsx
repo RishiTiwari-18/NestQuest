@@ -98,7 +98,7 @@ export function PropertyComparison() {
                   <div className="relative">
                     <button
                       onClick={() => removeProperty(property.id)}
-                      className="absolute -top-2 -right-2 bg-gray-100 rounded-full p-1 hover:bg-gray-200 transition-colors"
+                      className="absolute -top-2 -right-2 z-10 bg-gray-100 rounded-full p-1 hover:bg-gray-200 transition-colors"
                     >
                       <X className="h-4 w-4" />
                     </button>

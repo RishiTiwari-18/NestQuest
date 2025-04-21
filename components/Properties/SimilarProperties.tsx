@@ -53,7 +53,7 @@ export default function SimilarProperties() {
                 1,100 sq ft
               </span>
             </div>
-            <Button className="w-full rounded-xl">View Details</Button>
+            <Button className="w-full py-6 rounded-xl">View Details</Button>
           </div>
         </div>
       ))}

@@ -220,7 +220,7 @@ export default function LeftColumn() {
             Take a virtual tour of this property from anywhere, anytime. Explore every room as if you were
             actually there.
           </p>
-          <Button className="bg-blue-600 hover:bg-blue-700 rounded-xl px-7 py-4 h-auto text-lg">
+          <Button className="bg-blue-600 hover:bg-blue-700 rounded-xl px-7 py-3 h-auto text-lg">
             Start Virtual Tour
           </Button>
         </div>
@@ -234,7 +234,7 @@ export default function LeftColumn() {
         Add this property to your comparison list to compare features, prices, and amenities with other
         properties.
       </p>
-      <Button variant="outline" className="rounded-xl px-7 py-4 h-auto text-lg">
+      <Button variant="outline" className="rounded-xl px-7 py-3 h-auto text-lg">
         Add to Compare
       </Button>
     </div>
