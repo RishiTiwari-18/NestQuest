@@ -1,4 +1,4 @@
-import { Brain, FileCheck, Headset, MapPin, MessageSquare, Shield } from "lucide-react";
+import { Brain, FileCheck, Headset, MapPin, MessageSquare, Shield, Users, Lock } from "lucide-react";
 
 export const features = [
     {
@@ -74,3 +74,38 @@ export const features = [
       ],
     },
   ]
+
+export  const steps = [
+    { number: '1', title: 'Input Your Preferences', description: 'Tell us about your budget, desired location, must-have amenities, and lifestyle needs.' },
+    { number: '2', title: 'AI Analysis', description: 'Our algorithm analyzes thousands of properties and market data points to find matches.' },
+    { number: '3', title: 'Personalized Recommendations', description: 'Receive a curated list of properties with match percentages based on your criteria.' },
+    { number: '4', title: 'Continuous Learning', description: 'The AI learns from your feedback and refines future recommendations.' },
+  ];
+  
+export  const matchScores = [
+    { label: 'Location Match', percentage: '92%', description: 'This property is in your preferred neighborhood and close to your workplace.' },
+    { label: 'Budget Match', percentage: '85%', description: 'The rent is within your budget range, including estimated utilities.' },
+    { label: 'Amenities Match', percentage: '95%', description: 'This property has 9/10 amenities you marked as important.' },
+    { label: 'Lifestyle Match', percentage: '88%', description: 'The neighborhood aligns with your lifestyle preferences and activities.' },
+  ];
+
+export  const featuresData = [
+    {
+      title: "Fraud Detection",
+      description: "Our AI constantly scans listings for suspicious patterns and red flags that might indicate scams or fraudulent activity.",
+      icon: Shield,
+      iconColor: "red",
+    },
+    {
+      title: "Secure Transactions",
+      description: "All payments and financial transactions are protected with bank-level encryption and secure payment processing.",
+      icon: Lock,
+      iconColor: "green",
+    },
+    {
+      title: "Identity Verification",
+      description: "We verify the identity of both landlords and tenants to ensure everyone on our platform is who they claim to be.",
+      icon: Users,
+      iconColor: "blue",
+    },
+  ];

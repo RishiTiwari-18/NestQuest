@@ -7,7 +7,7 @@ import Image from "next/image"
 
 export default function VirtualToursPage() {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-8 py-8">
       <div className="max-w-4xl mx-auto text-center mb-12">
         <h1 className="text-4xl font-bold mb-4">Virtual Property Tours</h1>
         <p className="text-xl text-gray-600 mb-6">
@@ -78,7 +78,9 @@ export default function VirtualToursPage() {
                     <span>2 baths</span>
                   </div>
                 </div>
-                <Button className="w-full bg-blue-600 hover:bg-blue-700">Start Virtual Tour</Button>
+                <Link href={`/virtual-tours/${i}`}>
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700">Start Virtual Tour</Button>
+                </Link>
               </CardContent>
             </Card>
           ))}
